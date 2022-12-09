@@ -1,0 +1,72 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="kz.talipovsn.rates"
+4    android:versionCode="2"
+5    android:versionName="2.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->D:\andr8\16_android_8-main\TSN_DEMO_08_JSOUP_Rates\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->D:\andr8\16_android_8-main\TSN_DEMO_08_JSOUP_Rates\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->D:\andr8\16_android_8-main\TSN_DEMO_08_JSOUP_Rates\src\main\AndroidManifest.xml:6:5-66
+11-->D:\andr8\16_android_8-main\TSN_DEMO_08_JSOUP_Rates\src\main\AndroidManifest.xml:6:22-64
+12
+13    <application
+13-->D:\andr8\16_android_8-main\TSN_DEMO_08_JSOUP_Rates\src\main\AndroidManifest.xml:8:5-23:19
+14        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+14-->[androidx.core:core:1.8.0] C:\Users\student\.gradle\caches\transforms-3\0638d9dacb5fd10604e28ec2b4d3c80b\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
+15        android:debuggable="true"
+16        android:icon="@mipmap/ic_launcher"
+16-->D:\andr8\16_android_8-main\TSN_DEMO_08_JSOUP_Rates\src\main\AndroidManifest.xml:9:9-43
+17        android:label="@string/app_name"
+17-->D:\andr8\16_android_8-main\TSN_DEMO_08_JSOUP_Rates\src\main\AndroidManifest.xml:10:9-41
+18        android:testOnly="true"
+19        android:theme="@style/AppTheme"
+19-->D:\andr8\16_android_8-main\TSN_DEMO_08_JSOUP_Rates\src\main\AndroidManifest.xml:11:9-40
+20        android:usesCleartextTraffic="true" >
+20-->D:\andr8\16_android_8-main\TSN_DEMO_08_JSOUP_Rates\src\main\AndroidManifest.xml:12:9-44
+21        <activity
+21-->D:\andr8\16_android_8-main\TSN_DEMO_08_JSOUP_Rates\src\main\AndroidManifest.xml:15:9-21:20
+22            android:name="kz.talipovsn.rates.MainActivity"
+22-->D:\andr8\16_android_8-main\TSN_DEMO_08_JSOUP_Rates\src\main\AndroidManifest.xml:15:19-47
+23            android:exported="true" >
+23-->D:\andr8\16_android_8-main\TSN_DEMO_08_JSOUP_Rates\src\main\AndroidManifest.xml:16:13-36
+24            <intent-filter>
+24-->D:\andr8\16_android_8-main\TSN_DEMO_08_JSOUP_Rates\src\main\AndroidManifest.xml:17:13-20:29
+25                <action android:name="android.intent.action.MAIN" />
+25-->D:\andr8\16_android_8-main\TSN_DEMO_08_JSOUP_Rates\src\main\AndroidManifest.xml:18:17-68
+25-->D:\andr8\16_android_8-main\TSN_DEMO_08_JSOUP_Rates\src\main\AndroidManifest.xml:18:25-66
+26
+27                <category android:name="android.intent.category.LAUNCHER" />
+27-->D:\andr8\16_android_8-main\TSN_DEMO_08_JSOUP_Rates\src\main\AndroidManifest.xml:19:17-76
+27-->D:\andr8\16_android_8-main\TSN_DEMO_08_JSOUP_Rates\src\main\AndroidManifest.xml:19:27-74
+28            </intent-filter>
+29        </activity>
+30
+31        <provider
+31-->[androidx.emoji2:emoji2:1.2.0] C:\Users\student\.gradle\caches\transforms-3\69e8195e0af1903606758bebf50c459d\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+32            android:name="androidx.startup.InitializationProvider"
+32-->[androidx.emoji2:emoji2:1.2.0] C:\Users\student\.gradle\caches\transforms-3\69e8195e0af1903606758bebf50c459d\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+33            android:authorities="kz.talipovsn.rates.androidx-startup"
+33-->[androidx.emoji2:emoji2:1.2.0] C:\Users\student\.gradle\caches\transforms-3\69e8195e0af1903606758bebf50c459d\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+34            android:exported="false" >
+34-->[androidx.emoji2:emoji2:1.2.0] C:\Users\student\.gradle\caches\transforms-3\69e8195e0af1903606758bebf50c459d\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+35            <meta-data
+35-->[androidx.emoji2:emoji2:1.2.0] C:\Users\student\.gradle\caches\transforms-3\69e8195e0af1903606758bebf50c459d\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+36                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+36-->[androidx.emoji2:emoji2:1.2.0] C:\Users\student\.gradle\caches\transforms-3\69e8195e0af1903606758bebf50c459d\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+37                android:value="androidx.startup" />
+37-->[androidx.emoji2:emoji2:1.2.0] C:\Users\student\.gradle\caches\transforms-3\69e8195e0af1903606758bebf50c459d\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+38            <meta-data
+38-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\student\.gradle\caches\transforms-3\a2a5ae00951a98f5c9bbf6406733a104\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+39                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+39-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\student\.gradle\caches\transforms-3\a2a5ae00951a98f5c9bbf6406733a104\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+40                android:value="androidx.startup" />
+40-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\student\.gradle\caches\transforms-3\a2a5ae00951a98f5c9bbf6406733a104\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+41        </provider>
+42    </application>
+43
+44</manifest>
